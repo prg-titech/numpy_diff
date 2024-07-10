@@ -2,6 +2,8 @@
 
 This repository contains scripts to test the compatibility and behavior differences between NumPy versions 1.26.4 and 2.0.0. The scripts cover various NumPy functions that have different behaviors or outputs in these versions.
 
+[NumPy 2.0.0 Release Notes#Changes](https://numpy.org/doc/stable/release/2.0.0-notes.html#changes)
+
 ## Prerequisites
 
 - Python 3.x
