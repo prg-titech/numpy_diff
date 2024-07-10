@@ -1,6 +1,7 @@
 import numpy as np
 
 # np.all and np.any
+# - https://numpy.org/doc/stable/release/2.0.0-notes.html#strings-are-now-supported-by-any-all-and-the-logical-ufuncs
 # np.all returns True if all elements of an array evaluate to True.
 # np.any returns True if at least one element of an array evaluates to True.
 # The behavior of these functions was changed for string arrays in NumPy 2.0.0.

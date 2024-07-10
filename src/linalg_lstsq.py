@@ -1,6 +1,7 @@
 import numpy as np
 
 # np.linalg.lstsq
+# - https://numpy.org/doc/stable/release/2.0.0-notes.html#np-linalg-lstsq-now-defaults-to-a-new-rcond-value
 # Solves the equation a * x = b by computing a vector x that minimizes the Euclidean 2-norm || b - a * x ||.
 # In NumPy 2.0.0, the default value of the rcond parameter was changed.
 

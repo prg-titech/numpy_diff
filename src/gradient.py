@@ -1,6 +1,7 @@
 import numpy as np
 
-# np.gradient
+# np.gradient (gh-23861)
+# - https://numpy.org/doc/stable/release/2.0.0-notes.html#changes
 # Calculates the gradient of an N-dimensional array.
 # The gradient is calculated using central differences in the interior
 # and first differences at the boundaries.

@@ -1,7 +1,8 @@
 import numpy as np
 
 # np.linalg.solve
-# https://github.com/numpy/numpy/blob/e8f93a9803d15fa15aa7f68cf46999c470d8c920/numpy/linalg/_linalg.py#L320
+# - https://numpy.org/doc/stable/release/2.0.0-notes.html#removed-ambiguity-when-broadcasting-in-np-solve
+# - https://github.com/numpy/numpy/blob/e8f93a9803d15fa15aa7f68cf46999c470d8c920/numpy/linalg/_linalg.py#L320
 # Solves the linear equation system a * x = b for x.
 # Given a square matrix a and a right-hand side matrix b,
 # this function computes the solution matrix x.

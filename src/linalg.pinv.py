@@ -1,6 +1,7 @@
 import numpy as np
 
 # np.linalg.pinv
+# - https://numpy.org/doc/stable/release/2.0.0-notes.html#new-keywords-for-cholesky-and-pinv
 # Compute the (Moore-Penrose) pseudo-inverse of a matrix.
 # In NumPy 2.0.0, the behavior of np.linalg.pinv was changed.
 

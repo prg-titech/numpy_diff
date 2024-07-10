@@ -1,6 +1,7 @@
 import numpy as np
 
 # np.unique
+# - https://numpy.org/doc/stable/release/2.0.0-notes.html#np-unique-return-inverse-shape-for-multi-dimensional-inputs
 # Find the unique elements of an array.
 # When multi-dimensional inputs are passed to np.unique with return_inverse=True,
 # the unique_inverse output is now shaped such that the input can be reconstructed directly

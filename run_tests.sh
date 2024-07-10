@@ -6,24 +6,24 @@ test_files=(
   "gradient.py"
   "all_any.py"
   "nonzero.py"
-  "cross.py"
   "linalg_lstsq.py"
   "dtype_init.py"
   "loadtxt_genfromtxt.py"
   "can_cast.py"
   "unique.py"
+  "scalar_repr.py"
 )
 descriptions=(
   "Incompatibility: Broadcasting rules for np.linalg.solve(a, b) were changed in NumPy 2.0.0."
   "Incompatibility: Return value of np.gradient was changed from a list to a tuple in NumPy 2.0.0."
   "Incompatibility: Behavior of np.all and np.any was changed for string arrays in NumPy 2.0.0."
   "Incompatibility: np.nonzero behavior was changed to consider whitespace True in string arrays in NumPy 2.0.0."
-  "Incompatibility: np.cross now only accepts three-dimensional vectors in NumPy 2.0.0."
   "Incompatibility: Default value of rcond parameter in np.linalg.lstsq was changed in NumPy 2.0.0."
   "Incompatibility: Interpretation of strings with commas to initialize dtype was changed in NumPy 2.0.0."
   "Incompatibility: Default encoding for np.loadtxt and np.genfromtxt was changed in NumPy 2.0.0."
   "Incompatibility: np.can_cast cannot be called for Python int, float, and complex in NumPy 2.0.0."
   "Incompatibility: Behavior of np.unique was changed in NumPy 2.0.0."
+  "Incompatibility: The representation of NumPy scalars has been updated to include type information in NymPy 2.0.0."
 )
 
 echo "---------------------------------------------"

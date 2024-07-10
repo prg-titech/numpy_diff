@@ -2,6 +2,7 @@ import numpy as np
 import io
 
 # np.loadtxt and np.genfromtxt
+# - https://numpy.org/doc/stable/release/2.0.0-notes.html#loadtxt-and-genfromtxt-default-encoding-changed
 # Default encoding was changed from 'bytes' to 'utf-8'.
 
 def custom_converter(byte_string):
