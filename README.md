@@ -17,7 +17,7 @@ This repository contains scripts to test the compatibility and behavior differen
 
 2. Run the setup script to create virtual environments and install the required NumPy versions:
     ```sh
-    chmod +x setup.sh
+    chmod +x setup.sh (only when the first run)
     ./setup.sh
     ```
 
@@ -26,6 +26,6 @@ This repository contains scripts to test the compatibility and behavior differen
 To run the tests for both NumPy versions, execute the `run_tests.sh` script:
 
 ```sh
-chmod +x run_tests.sh
+chmod +x run_tests.sh (only when the first run)
 ./run_tests.sh
 ```
